@@ -11,26 +11,30 @@ User.create(
 )
 puts "Email created"
 
-Flat.create(
+Flat.create!(
   title: "Joli T3 Plein centre",
   address: "3 La cannebiere, 13001, Marseille",
-  price: 700
+  price: 700,
+  user_id: 1
 )
 
-Flat.create(
+Flat.create!(
   title: "T4 teh la zone",
   address: "BAT C La castellane, 13014, Marseille",
-  price: 680
+  price: 680,
+  user_id: 1
 )
 
-Flat.create(
+Flat.create!(
   title: "Charmant T2",
   address: "266 Avenue de Toulon, 13010, Marseille",
-  price: 520
+  price: 520,
+  user_id: 1
 )
 
-Flat.create(
+Flat.create!(
   title: "Petit studio dans le 4eme",
   address: "2 impasse Jardin des Plants, 13004, Marseille",
-  price: 480
+  price: 480,
+  user_id: 1
 )
