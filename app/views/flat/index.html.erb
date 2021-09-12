@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="flats-list">
+    <%= @flats.each do |flat| %>
+      <div class="flat-card">
+        <div class="flat-img">
+        </div>
+        <div class="flat-specs">
+         <h2><%= flat.title %></h2>
+         <h3><%= flat.address %></h3>
+         <h4><%= flat.price %></h4>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+</div>
